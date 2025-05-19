@@ -1,5 +1,3 @@
-# For details & more options, see documentation/AppManifests.md in firmware repo
-
 App(
     appid="delfyrtl",  # Must be unique
     name="DelfiRTL",  # Displayed in menus
