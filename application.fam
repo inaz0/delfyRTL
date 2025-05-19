@@ -1,16 +1,14 @@
 App(
-    appid="delfyrtl",  # Must be unique
-    name="DelfiRTL",  # Displayed in menus
+    appid="delfyrtl",
+    name="DelfiRTL",
     apptype=FlipperAppType.EXTERNAL,
     entry_point="delfyRTL_app",
     stack_size=2 * 1024,
     fap_category="GPIO",
-    # Optional values
-    # fap_version="0.1",
-    fap_icon="delfy_rtl.png",  # 10x10 1-bit PNG
-    # fap_description="A simple app",
-    # fap_author="J. Doe",
-    # fap_weburl="https://github.com/user/template",
-    fap_icon_assets="images",  # Image assets to compile for this application
+    fap_version="0.1",
+    fap_icon="delfy_rtl.png",
+    fap_description="BW16 deauth 5Ghz",
+    fap_author="Gorebrau",
+    fap_icon_assets="images",
     fap_libs=["assets", "hwdrivers"],
 )
